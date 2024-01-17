@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>       
+    <head><title>CURRENT DATE</title></head>
+<body>
+    <h1><p>CURRENT Date</p>
+        <div id="current_date">
+            <script>
+                date = new Date();
+                year=date.getFullYear();
+                month=date.getMOnth()+1;
+                day=date.getDate();
+                document.getElementById("current_date").innerHTML = day +"/"+ month + "/"+ year ;
+            </script></h1>
+        </div>
+</body>    
+</html>
